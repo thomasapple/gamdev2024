@@ -1,0 +1,3 @@
+<script>
+  funtion myShowJSON(myIn){
+document.getElementById('myDiv1').innerHTML = sent: ${myIn}
