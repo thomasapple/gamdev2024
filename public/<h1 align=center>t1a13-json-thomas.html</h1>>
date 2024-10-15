@@ -23,4 +23,7 @@ Enter a json returning URL: <input type=text id="myText1" size=80 value=
 </select><br><br>
 
 
-	You make the select box JSON show up in the DIV, 
+	You make the select box JSON show up in the DIV, and include many more URL's in the select box<br><br>
+
+All the JSON<br>
+<div id="myDiv1">...</div><br>
