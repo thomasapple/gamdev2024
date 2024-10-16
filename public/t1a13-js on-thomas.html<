@@ -9,4 +9,30 @@ async function fetchData() {
    console.log(data);
    console.log(`data.status: ${data.status}`)
 
+   const myJson = await JSON.stringify(data, null, 2);
+   document.getElementById('myDiv1').innerHTML = myJson
+}
+
+</script>
+
+
+Explanation of JSON compared to javascript objects formatted for this textarea.<br>
+
+<textarea cols=70 rows=5>
+
+</textarea><br><br>
+
+
+Enter a json returning URL: <input type=text id="myText1" vaue=
+"https://randomfox.ca/floof/">
+<input type=button value="show JSON onclick="{fetchdata()}"><br><br>
+
+<select size=1 onchange="myShowJSON9this.value)">
+<option value="https://randomfox.ca/floof/">randomfox
+<option value="https://dog.ceo/api/breeds/image/random">god.ceo
+
+
+You make the slect box JSON show up in the DIV and include man more URL's in the select box<br><br>
+
+<div id="myDiv1">...</div>
 
