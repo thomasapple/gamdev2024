@@ -1,1 +1,23 @@
+<script>
 
+class myAnimal {
+  constructor(passName, passAge) {
+    this.myName = passName;
+    this.myAge = passAge;
+  }
+  myShow(){
+    document.getElementById('myDiv01').innerHTML = 'Hello '+ this.myName+'<br>'
+  }
+}  // end class myAnimal
+
+
+class myCat extends myAnimal {
+
+  myShow(){
+    document.getElementById('myDiv01').innerHTML = this.myName = ' is a great cat<br>'
+  }
+}   // end extended class myCat
+
+</script>
+
+<input type=button value="Example Class Set and Show Class Animal
